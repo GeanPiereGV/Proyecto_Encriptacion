@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Encriptador</title>
+    <link rel="stylesheet" href="CSS/disenho.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor contenido-header">
+            <a class="logo" href="#"><img src="imagenes/Logo.png" alt="Logo Alura"></a>
+            <h1 class="titulo">Encriptador de mensajes</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="contenedor dos-columnas">
+            <article>
+                <input class="text-input" type="text" name="input-texto" size="20" id="texto"
+                    placeholder="Ingrese el texto aqui">
+                    
+                    <p class="advertencia">! Solo letras minusculas y sin acentos</p>
+                
+                <div class="pos">
+                    <button type="button" id="btn-encriptar" class="btnTotal">Encriptar</button>
+                    <button type="button" id="btn-desencriptar" class="btnTotal">Desencriptar</button>
+                </div>
+
+            </article>
+
+            <article>
+                
+                <textarea name="" id="encriptado" class="encriptado"></textarea>
+                <p class="texto-encriptado"></p>
+                <p class="copiar">&iexcl;Puede copiar el texto si desea</p>
+                
+                <div class="pos2">
+                <button type="button" id="btn-copiar" class="btnTotal1">Copiar</button>
+                </div>
+            
+            </article>
+
+
+        </div>
+    </main>
+
+    <footer>
+        <img class="logocurso" src="imagenes/logo-blanco-1.png" alt="Logo de la Barbería Alura">
+        <p class="copyright">&copy Copyright Challenger One-G4 Alura - 2020</p>
+    </footer>
+    <script src="java/index.js"></script>
+</body>
+
+</html>
